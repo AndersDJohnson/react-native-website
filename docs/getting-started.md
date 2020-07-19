@@ -22,17 +22,22 @@ This page will help you install and build your first React Native app.
 
 <block class="quickstart mac windows linux ios android" />
 
-Assuming that you have [Node 12 LTS](https://nodejs.org/en/download/) or greater installed, you can use npm to install the Expo CLI command line utility:
+Assuming that you have [Node 12 LTS](https://nodejs.org/en/download/) or greater installed, you can use npm to install the Expo CLI command line utility and create a new React Native project called "AwesomeProject":
 
 ```sh
 npm install -g expo-cli
+expo init AwesomeProject
 ```
 
-Then run the following commands to create a new React Native project called "AwesomeProject":
+Or:
 
 ```sh
-expo init AwesomeProject
+npx expo-cli init AwesomeProject
+```
 
+Then:
+
+```sh
 cd AwesomeProject
 npm start # you can also use: expo start
 ```
